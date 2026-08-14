@@ -1,0 +1,284 @@
+/* Afterglow Obsidian Theme */
+
+:root {
+  --background-primary: #F4EEE1;
+  --background-secondary: #ECE5D5;
+  --background-secondary-alt: #ECE5D5;
+  --background-tertiary: #E6D6C1;
+  --text-normal: #24163B;
+  --text-muted: #574979;
+  --text-faint: #7A6F9B;
+  --text-title-h1: #8930A6;
+  --text-title-h2: #AE296B;
+  --text-title-h3: #1D7187;
+  --text-title-h4: #4D3781;
+  --text-title-h5: #24163B;
+  --text-title-h6: #574979;
+  --text-accent: #C3228E;
+  --text-accent-hover: #8930A6;
+  --text-error: #B12531;
+  --text-success: #22775B;
+  --text-warning: #A25410;
+  --text-highlight-bg: rgba(195, 34, 142, 0.2);
+  --text-selection: rgba(223, 194, 170, 0.8);
+  --text-on-accent: #F4EEE1;
+  --interactive-normal: #CDAEA2;
+  --interactive-hover: #DFC2AA;
+  --interactive-accent: #8930A6;
+  --interactive-accent-hover: #C3228E;
+  --background-modifier-hover: rgba(223, 194, 170, 0.5);
+  --background-modifier-selected: rgba(223, 194, 170, 0.7);
+  --background-modifier-cover: rgba(244, 238, 225, 0.8);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.15);
+  --background-modifier-border: #CDAEA2;
+  --background-modifier-error-hover: rgba(177, 37, 49, 0.2);
+  --background-modifier-error: rgba(177, 37, 49, 0.1);
+  --background-modifier-success-hover: rgba(34, 119, 91, 0.2);
+  --background-modifier-success: rgba(34, 119, 91, 0.1);
+  --background-modifier-warning-hover: rgba(162, 84, 16, 0.2);
+  --background-modifier-warning: rgba(162, 84, 16, 0.1);
+  --background-modifier-form-field: #ECE5D5;
+  --tag-color: #8930A6;
+  --tag-color-hover: #C3228E;
+  --tag-bg: rgba(137, 48, 166, 0.15);
+  --tag-border: rgba(137, 48, 166, 0.3);
+  --callout-color: #8930A6;
+  --callout-title: #8930A6;
+  --callout-content-bg: rgba(137, 48, 166, 0.1);
+  --callout-content-border: rgba(137, 48, 166, 0.3);
+  --callout-bg: rgba(137, 48, 166, 0.08);
+  --callout-bg-muted: rgba(137, 48, 166, 0.05);
+  --checkbox-color: #8930A6;
+  --checkbox-marker-color: #8930A6;
+  --code-background: #ECE5D5;
+  --code-normal: #24163B;
+  --code-comment: #7A6F9B;
+  --code-function: #AE296B;
+  --code-keyword: #8930A6;
+  --code-string: #B64820;
+  --code-number: #955F0F;
+  --code-type: #1D7187;
+  --code-parameter: #4D3781;
+  --code-property: #7F5893;
+  --code-punctuation: #7F5893;
+  --code-tag: #8930A6;
+  --code-attribute-name: #1D7187;
+  --code-attribute-value: #B64820;
+  --border-color: #CDAEA2;
+  --border-width: 1px;
+  --nav-item-tint-hover: rgba(223, 194, 170, 0.5);
+  --nav-item-tint-active: rgba(223, 194, 170, 0.7);
+  --nav-item-color-hover: #24163B;
+  --nav-item-color-active: #C3228E;
+  --graph-line: #CDAEA2;
+  --graph-node: #8930A6;
+  --graph-node-tag: #8930A6;
+  --graph-node-attachment: #1D7187;
+  --graph-node-active: #C3228E;
+  --graph-label: #574979;
+  --graph-active-fill: rgba(137, 48, 166, 0.2);
+  --graph-active-color: #C3228E;
+  --slider-track-background: #CDAEA2;
+  --slider-track-background-hover: #DFC2AA;
+  --slider-thumb-color: #8930A6;
+  --slider-thumb-color-hover: #C3228E;
+  --ribbon-bg: #ECE5D5;
+  --ribbon-hover-bg: #E6D6C1;
+  --ribbon-collapsed-bg: #ECE5D5;
+  --suggestion-hover-bg: rgba(223, 194, 170, 0.5);
+  --suggestion-selected-bg: rgba(223, 194, 170, 0.7);
+  --prompt-input-bg: #ECE5D5;
+  --modal-background: #ECE5D5;
+  --modal-border-color: #CDAEA2;
+  --modal-bg: #ECE5D5;
+  --modal-border: #CDAEA2;
+  --modal-close-x-color: #574979;
+  --modal-close-x-hover-color: #C3228E;
+  --modal-header-background: #ECE5D5;
+  --modal-header-border: #CDAEA2;
+  --modal-footer-background: #ECE5D5;
+  --modal-footer-border: #CDAEA2;
+  --embed-bg: #ECE5D5;
+  --embed-border: #CDAEA2;
+  --embed-shadow: rgba(0, 0, 0, 0.1);
+  --blockquote-bg: rgba(137, 48, 166, 0.05);
+  --blockquote-border: #8930A6;
+  --hr-color: #CDAEA2;
+  --hr-thickness: 1px;
+}
+
+/* Basic Resets */
+body {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Workspace */
+.workspace-1Rq3jG {
+  background-color: var(--background-primary) !important;
+}
+
+/* Sidebar */
+.workspace-rim {
+  background-color: var(--background-primary) !important;
+}
+
+.workspace-split.mod-horizontal.mod-left-split .workspace-tab-container {
+  background-color: var(--background-primary) !important;
+}
+
+/* Tabs */
+.workspace-tab-header {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-muted) !important;
+  border-color: var(--border-color) !important;
+}
+
+.workspace-tab-header.is-active {
+  background-color: var(--background-primary) !important;
+  color: var(--text-accent) !important;
+  border-top-color: var(--text-accent) !important;
+}
+
+.workspace-tab-header:hover {
+  background-color: var(--background-tertiary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Editor */
+.markdown-source-view {
+  background-color: var(--background-primary) !important;
+}
+
+.markdown-preview-view {
+  background-color: var(--background-primary) !important;
+}
+
+.markdown-preview-sizer {
+  background-color: var(--background-primary) !important;
+}
+
+/* Preview */
+.markdown-preview-view h1 {
+  color: var(--text-title-h1) !important;
+}
+
+.markdown-preview-view h2 {
+  color: var(--text-title-h2) !important;
+}
+
+.markdown-preview-view h3 {
+  color: var(--text-title-h3) !important;
+}
+
+/* Callouts */
+.callout {
+  background-color: var(--callout-bg) !important;
+  border-left-color: var(--callout-color) !important;
+}
+
+.callout-title {
+  color: var(--callout-title) !important;
+}
+
+/* Tags */
+.tag {
+  background-color: var(--tag-bg) !important;
+  border-color: var(--tag-border) !important;
+  color: var(--tag-color) !important;
+}
+
+.tag:hover {
+  background-color: var(--tag-color) !important;
+  color: var(--text-on-accent) !important;
+}
+
+/* Checkboxes */
+.checkbox-container {
+  color: var(--checkbox-color) !important;
+}
+
+.checkbox-container.is-checked {
+  background-color: var(--checkbox-color) !important;
+  color: var(--text-on-accent) !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-color) !important;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Code Blocks */
+pre {
+  background-color: var(--code-background) !important;
+  border-color: var(--border-color) !important;
+}
+
+code {
+  color: var(--code-normal) !important;
+  background-color: var(--code-background) !important;
+}
+
+.highlight {
+  background-color: var(--code-background) !important;
+}
+
+/* Blockquotes */
+blockquote {
+  border-color: var(--blockquote-border) !important;
+  background-color: var(--blockquote-bg) !important;
+}
+
+/* Horizontal Rule */
+hr {
+  background-color: var(--hr-color) !important;
+}
+
+/* Links */
+a {
+  color: var(--text-accent) !important;
+}
+
+a:hover {
+  color: var(--interactive-accent-hover) !important;
+}
+
+/* Lists */
+ul li::marker {
+  color: var(--text-accent) !important;
+}
+
+/* Tables */
+table {
+  background-color: var(--background-primary) !important;
+}
+
+thead {
+  background-color: var(--background-tertiary) !important;
+}
+
+thead th {
+  color: var(--text-title-h2) !important;
+}
+
+tr:nth-child(even) {
+  background-color: var(--background-secondary) !important;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--background-primary) !important;
+}
