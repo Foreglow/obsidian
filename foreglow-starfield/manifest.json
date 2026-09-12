@@ -1,0 +1,10 @@
+{
+	"id": "foreglow-starfield",
+	"name": "Foreglow Starfield",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Animated twinkling ASCII starfield overlay for the Foreglow theme family.",
+	"author": "Foreglow",
+	"authorUrl": "https://github.com/Foreglow",
+	"isDesktopOnly": false
+}
