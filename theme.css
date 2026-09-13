@@ -55,12 +55,6 @@ settings:
   --background-modifier-cover: rgba(22, 18, 33, 0.8);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-border: #322C44;
-  --background-modifier-error-hover: rgba(228, 103, 114, 0.2);
-  --background-modifier-error: rgba(228, 103, 114, 0.1);
-  --background-modifier-success-hover: rgba(107, 199, 168, 0.2);
-  --background-modifier-success: rgba(107, 199, 168, 0.1);
-  --background-modifier-warning-hover: rgba(242, 166, 90, 0.2);
-  --background-modifier-warning: rgba(242, 166, 90, 0.1);
   --background-modifier-form-field: #1D182A;
   --tag-color: #CB81E4;
   --tag-color-hover: #F471C8;
@@ -129,6 +123,36 @@ settings:
   --blockquote-border: #CB81E4;
   --hr-color: #322C44;
   --hr-thickness: 1px;
+  /* --- Added for full-coverage consistency pass --- */
+  --background-primary-rgb: 22, 18, 33;
+  --interactive-accent-rgb: 244, 113, 200;
+  --background-modifier-error: #E46772;
+  --background-modifier-error-hover: #E87E87;
+  --background-modifier-error-rgb: 228, 103, 114;
+  --background-modifier-warning: #F2A65A;
+  --background-modifier-warning-hover: #F4B373;
+  --background-modifier-warning-rgb: 242, 166, 90;
+  --background-modifier-success: #6BC7A8;
+  --background-modifier-success-hover: #81CFB5;
+  --background-modifier-success-rgb: 107, 199, 168;
+  --background-modifier-message: #1D182A;
+  --text-error-hover: #E87E87;
+  --text-highlight-bg-active: rgba(242, 166, 90, 0.4);
+  --link-color: #75C6D7;
+  --link-color-hover: #F471C8;
+  --link-external-color: #EC93BF;
+  --link-external-color-hover: #F471C8;
+  --link-unresolved-color: #A085AD;
+  --link-unresolved-decoration-color: #E46772;
+  --list-marker-color: #F471C8;
+  --checklist-done-color: #6BC7A8;
+  --indentation-guide-color: #322C44;
+  --indentation-guide-color-active: #F471C8;
+  --interactive-success: #6BC7A8;
+  --callout-quote: #A49BBF;
+  --workspace-background-translucent: rgba(22, 18, 33, 0.6);
+  --drag-ghost-background: rgba(0, 0, 0, 0.85);
+  --toggle-thumb-color: #E8E3F2;
 }
 
 .theme-light {
@@ -162,12 +186,6 @@ settings:
   --background-modifier-cover: rgba(244, 238, 225, 0.8);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.15);
   --background-modifier-border: #CDAEA2;
-  --background-modifier-error-hover: rgba(177, 37, 49, 0.2);
-  --background-modifier-error: rgba(177, 37, 49, 0.1);
-  --background-modifier-success-hover: rgba(34, 119, 91, 0.2);
-  --background-modifier-success: rgba(34, 119, 91, 0.1);
-  --background-modifier-warning-hover: rgba(162, 84, 16, 0.2);
-  --background-modifier-warning: rgba(162, 84, 16, 0.1);
   --background-modifier-form-field: #ECE5D5;
   --tag-color: #8930A6;
   --tag-color-hover: #C3228E;
@@ -236,6 +254,36 @@ settings:
   --blockquote-border: #8930A6;
   --hr-color: #CDAEA2;
   --hr-thickness: 1px;
+  /* --- Added for full-coverage consistency pass --- */
+  --background-primary-rgb: 244, 238, 225;
+  --interactive-accent-rgb: 195, 34, 142;
+  --background-modifier-error: #B12531;
+  --background-modifier-error-hover: #961F2A;
+  --background-modifier-error-rgb: 177, 37, 49;
+  --background-modifier-warning: #A25410;
+  --background-modifier-warning-hover: #8A470E;
+  --background-modifier-warning-rgb: 162, 84, 16;
+  --background-modifier-success: #22775B;
+  --background-modifier-success-hover: #1D654D;
+  --background-modifier-success-rgb: 34, 119, 91;
+  --background-modifier-message: #ECE5D5;
+  --text-error-hover: #961F2A;
+  --text-highlight-bg-active: rgba(162, 84, 16, 0.4);
+  --link-color: #1D7187;
+  --link-color-hover: #C3228E;
+  --link-external-color: #AE296B;
+  --link-external-color-hover: #C3228E;
+  --link-unresolved-color: #7F5893;
+  --link-unresolved-decoration-color: #B12531;
+  --list-marker-color: #C3228E;
+  --checklist-done-color: #22775B;
+  --indentation-guide-color: #CDAEA2;
+  --indentation-guide-color-active: #C3228E;
+  --interactive-success: #22775B;
+  --callout-quote: #574979;
+  --workspace-background-translucent: rgba(244, 238, 225, 0.6);
+  --drag-ghost-background: rgba(0, 0, 0, 0.85);
+  --toggle-thumb-color: #24163B;
 }
 
 .theme-dark.foreglow-alpenglow {
@@ -269,12 +317,6 @@ settings:
   --background-modifier-cover: rgba(22, 18, 33, 0.8);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-border: #4D1818;
-  --background-modifier-error-hover: rgba(228, 103, 114, 0.2);
-  --background-modifier-error: rgba(228, 103, 114, 0.1);
-  --background-modifier-success-hover: rgba(107, 199, 168, 0.2);
-  --background-modifier-success: rgba(107, 199, 168, 0.1);
-  --background-modifier-warning-hover: rgba(242, 166, 90, 0.2);
-  --background-modifier-warning: rgba(242, 166, 90, 0.1);
   --background-modifier-form-field: #2D0A0A;
   --tag-color: #FF6B8A;
   --tag-color-hover: #FF6B9D;
@@ -343,6 +385,36 @@ settings:
   --blockquote-border: #FF6B8A;
   --hr-color: #4D1818;
   --hr-thickness: 1px;
+  /* --- Added for full-coverage consistency pass --- */
+  --background-primary-rgb: 26, 5, 5;
+  --interactive-accent-rgb: 255, 107, 157;
+  --background-modifier-error: #FF4444;
+  --background-modifier-error-hover: #FF6060;
+  --background-modifier-error-rgb: 255, 68, 68;
+  --background-modifier-warning: #FF8844;
+  --background-modifier-warning-hover: #FF9A60;
+  --background-modifier-warning-rgb: 255, 136, 68;
+  --background-modifier-success: #E85D75;
+  --background-modifier-success-hover: #EB758A;
+  --background-modifier-success-rgb: 232, 93, 117;
+  --background-modifier-message: #2D0A0A;
+  --text-error-hover: #FF6060;
+  --text-highlight-bg-active: rgba(255, 136, 68, 0.4);
+  --link-color: #E85D75;
+  --link-color-hover: #FF6B9D;
+  --link-external-color: #FFB3C6;
+  --link-external-color-hover: #FF6B9D;
+  --link-unresolved-color: #CC7A8E;
+  --link-unresolved-decoration-color: #FF4444;
+  --list-marker-color: #FF6B9D;
+  --checklist-done-color: #E85D75;
+  --indentation-guide-color: #4D1818;
+  --indentation-guide-color-active: #FF6B9D;
+  --interactive-success: #E85D75;
+  --callout-quote: #C4A398;
+  --workspace-background-translucent: rgba(26, 5, 5, 0.6);
+  --drag-ghost-background: rgba(0, 0, 0, 0.85);
+  --toggle-thumb-color: #F5E6DC;
 }
 
 .theme-dark.foreglow-airglow {
@@ -376,12 +448,6 @@ settings:
   --background-modifier-cover: rgba(22, 18, 33, 0.8);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-border: #2A4A50;
-  --background-modifier-error-hover: rgba(228, 103, 114, 0.2);
-  --background-modifier-error: rgba(228, 103, 114, 0.1);
-  --background-modifier-success-hover: rgba(107, 199, 168, 0.2);
-  --background-modifier-success: rgba(107, 199, 168, 0.1);
-  --background-modifier-warning-hover: rgba(242, 166, 90, 0.2);
-  --background-modifier-warning: rgba(242, 166, 90, 0.1);
   --background-modifier-form-field: #0F2024;
   --tag-color: #2EE8C8;
   --tag-color-hover: #2EE8C8;
@@ -450,6 +516,36 @@ settings:
   --blockquote-border: #2EE8C8;
   --hr-color: #2A4A50;
   --hr-thickness: 1px;
+  /* --- Added for full-coverage consistency pass --- */
+  --background-primary-rgb: 10, 26, 31;
+  --interactive-accent-rgb: 46, 232, 200;
+  --background-modifier-error: #E87070;
+  --background-modifier-error-hover: #EB8585;
+  --background-modifier-error-rgb: 232, 112, 112;
+  --background-modifier-warning: #D4B870;
+  --background-modifier-warning-hover: #DAC385;
+  --background-modifier-warning-rgb: 212, 184, 112;
+  --background-modifier-success: #4AC878;
+  --background-modifier-success-hover: #65D08C;
+  --background-modifier-success-rgb: 74, 200, 120;
+  --background-modifier-message: #0F2024;
+  --text-error-hover: #EB8585;
+  --text-highlight-bg-active: rgba(212, 184, 112, 0.4);
+  --link-color: #4AA8D0;
+  --link-color-hover: #2EE8C8;
+  --link-external-color: #C8A0E8;
+  --link-external-color-hover: #2EE8C8;
+  --link-unresolved-color: #6A9AA0;
+  --link-unresolved-decoration-color: #E87070;
+  --list-marker-color: #2EE8C8;
+  --checklist-done-color: #4AC878;
+  --indentation-guide-color: #2A4A50;
+  --indentation-guide-color-active: #2EE8C8;
+  --interactive-success: #4AC878;
+  --callout-quote: #7A9AA0;
+  --workspace-background-translucent: rgba(10, 26, 31, 0.6);
+  --drag-ghost-background: rgba(0, 0, 0, 0.85);
+  --toggle-thumb-color: #E0F0F5;
 }
 
 /* Basic Resets */
@@ -626,4 +722,44 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background-color: var(--background-primary) !important;
+}
+
+/* Settings screen — Obsidian's own core CSS doesn't fully key these off
+ * variables alone, so the sidebar nav falls back to its hardcoded default
+ * gray without explicit overrides here. */
+.vertical-tab-header {
+  background-color: var(--background-secondary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.vertical-tab-content-container,
+.vertical-tab-content {
+  background-color: var(--background-primary) !important;
+}
+
+.vertical-tab-nav-item {
+  color: var(--text-muted) !important;
+}
+
+.vertical-tab-nav-item:hover {
+  background-color: var(--background-modifier-hover) !important;
+  color: var(--text-normal) !important;
+}
+
+.vertical-tab-nav-item.is-active {
+  background-color: var(--interactive-accent) !important;
+  color: var(--text-on-accent) !important;
+}
+
+.vertical-tab-nav-item.is-active:hover {
+  background-color: var(--interactive-accent-hover) !important;
+  color: var(--text-on-accent) !important;
+}
+
+.vertical-tab-header-group-title {
+  color: var(--text-faint) !important;
+}
+
+.modal-bg {
+  background-color: var(--background-modifier-cover) !important;
 }
