@@ -1,10 +1,45 @@
-# Foreglow Theme for Obsidian
+<p align="center"><img width="320" alt="foreglow-logo" src="https://github.com/user-attachments/assets/5b0f629b-9800-4c97-b23b-fa3f22681ea4" /></p>
 
-A twilight-inspired theme for Obsidian with four looks in one package:
-**Foreglow** (dark, dawn), **Afterglow** (light, dusk), **Alpenglow**
+<h3 align="center">Foreglow Theme for <a href="https://obsidian.md/">Obsidian</a></h3>
+
+<p align="center">
+  <a href="https://github.com/Foreglow/obsidian/stargazers"><img src="https://img.shields.io/github/stars/Foreglow/obsidian?style=for-the-badge&labelColor=313244&color=CB81E4" alt="Stars" /></a>
+  <a href="https://github.com/Foreglow/obsidian/issues"><img src="https://img.shields.io/github/issues/Foreglow/obsidian?style=for-the-badge&labelColor=313244&color=8930A6" alt="Issues" /></a>
+  <a href="https://github.com/Foreglow/obsidian/graphs/contributors"><img src="https://img.shields.io/github/contributors/Foreglow/obsidian?style=for-the-badge&labelColor=313244&color=FF6B8A" alt="Contributors" /></a>
+  <a href="https://github.com/Foreglow/obsidian/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Foreglow/obsidian?style=for-the-badge&labelColor=313244&color=2EE8C8" alt="License" /></a>
+</p>
+
+<p align="center"><img width="640" alt="foreglow-pack-obsidian" src="https://github.com/user-attachments/assets/3c15dc63-a90b-4423-8b2a-018b7e811cc8" /></p>
+
+## Previews
+
+<details>
+  <summary>🌃 Foreglow</summary>
+  <img width="1027" height="801" alt="foreglow" src="https://github.com/user-attachments/assets/0af9e610-e5cc-4762-8571-920aa357a32e" />
+</details>
+
+<details>
+  <summary>🌇 Afterglow</summary>
+  <img width="1027" height="801" alt="afterglow" src="https://github.com/user-attachments/assets/e7393fd4-9b28-4659-a6ed-f8b987dd1b21" />
+</details>
+
+<details>
+  <summary>🌉 Alpenglow</summary>
+  <img width="1027" height="801" alt="alpenglow" src="https://github.com/user-attachments/assets/62253af8-aa26-4119-95ea-d8f90bc478c2" />
+</details>
+
+<details>
+  <summary>🌌 Airglow</summary>
+  <img width="1027" height="801" alt="airglow" src="https://github.com/user-attachments/assets/94876428-152e-4ebb-9389-e89b61a09315" />
+</details>
+
+A twilight-inspired theme for Obsidian, with four variants:
+**Foreglow** (dark-dawn), **Afterglow** (light-dusk), **Alpenglow**
 (rubescent), and **Airglow** (auroral).
 
-This is a single Obsidian theme (one `manifest.json` + `theme.css` at the
+## Structure
+
+Contains a single Obsidian theme (one `manifest.json` + `theme.css` at the
 repo root) that handles all four color variants in one package:
 
 - **Foreglow** (dark) and **Afterglow** (light) follow Obsidian's own
@@ -52,24 +87,6 @@ Install the [Style Settings](https://obsidian.md/plugins?id=obsidian-style-setti
 community plugin, then go to Settings → Style Settings → Foreglow →
 "Alternate dark flavor" and pick **Alpenglow** or **Airglow**. Leave it
 unset to use the default Foreglow/Afterglow pair.
-
-## Publishing
-
-Obsidian's [Community Themes](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme)
-directory requires, at the repo root:
-
-- `manifest.json` and `theme.css` (already here)
-- `README.md` and `LICENSE` (already here)
-- A screenshot (512×288px recommended) — have one, see
-  [Screenshot](#screenshot) below (not resized to the recommended
-  dimensions yet)
-- A GitHub Release whose tag matches `manifest.json`'s `version`
-  (semantic versioning), with `manifest.json` and `theme.css` attached to
-  the release as binary files
-
-Once those are in place, submit through
-[community.obsidian.md](https://community.obsidian.md) with your GitHub
-account linked.
 
 ## Color Palette
 
@@ -140,8 +157,6 @@ account linked.
 | Type | `#4AA8D0` | Classes, types |
 | Variable | `#8BC4D4` | Variables |
 | Accent | `#2EE8C8` | Cursor, accent |
-
-## Screenshot
 
 ![Foreglow and Afterglow side by side in Obsidian](foreglow-pack-obsidian-alt.png)
 
