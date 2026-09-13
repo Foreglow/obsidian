@@ -78,7 +78,7 @@ no way to register four separately-named themes from one repo.
 
 ### From the Community Themes directory
 
-Once published (see [Publishing](#publishing)), search for **Foreglow** in
+Search for [**Foreglow**](https://community.obsidian.md/themes/foreglow) in
 Settings → Appearance → Themes → "Manage" → browse.
 
 ### Reaching Alpenglow and Airglow
