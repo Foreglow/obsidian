@@ -14,9 +14,14 @@ settings:
         description: Pick an alternate dark palette. Leave unset to use the default Foreglow (dark) / Afterglow (light) pair, which follows Obsidian's own light/dark toggle.
         type: class-select
         allowEmpty: true
+        default: none
         options:
-            - foreglow-alpenglow
-            - foreglow-airglow
+            -
+                label: Alpenglow
+                value: foreglow-alpenglow
+            -
+                label: Airglow
+                value: foreglow-airglow
 */
 
 .theme-dark {
