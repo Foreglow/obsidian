@@ -26,10 +26,7 @@ no way to register four separately-named themes from one repo.
 .
 ├── manifest.json
 ├── theme.css
-└── foreglow-starfield/   # companion plugin — see Starfield Background below
-    ├── manifest.json
-    ├── main.js
-    └── README.md
+└── foreglow-pack-obsidian-alt.png   # marketplace screenshot
 ```
 
 ## Installation
@@ -63,8 +60,9 @@ directory requires, at the repo root:
 
 - `manifest.json` and `theme.css` (already here)
 - `README.md` and `LICENSE` (already here)
-- A screenshot (512×288px recommended) — still needed, see
-  [Screenshot](#screenshot) below
+- A screenshot (512×288px recommended) — have one, see
+  [Screenshot](#screenshot) below (not resized to the recommended
+  dimensions yet)
 - A GitHub Release whose tag matches `manifest.json`'s `version`
   (semantic versioning), with `manifest.json` and `theme.css` attached to
   the release as binary files
@@ -72,20 +70,6 @@ directory requires, at the repo root:
 Once those are in place, submit through
 [community.obsidian.md](https://community.obsidian.md) with your GitHub
 account linked.
-
-## Starfield Background
-
-Like the [VS Code extension](https://github.com/Foreglow/visual-studio-code),
-this repo includes an animated twinkling starfield overlay — as the
-`foreglow-starfield/` plugin folder. Obsidian themes can't run JavaScript,
-so this ships as a small companion plugin rather than part of the theme
-itself. See [foreglow-starfield/README.md](foreglow-starfield/README.md)
-for installation and usage.
-
-Unlike the VS Code version, which has to patch VS Code's own core files
-and requires a restart to toggle, the Obsidian plugin uses the documented
-Plugin API directly — no core files touched, and toggling applies
-immediately.
 
 ## Color Palette
 
@@ -159,7 +143,7 @@ immediately.
 
 ## Screenshot
 
-Coming soon.
+![Foreglow and Afterglow side by side in Obsidian](foreglow-pack-obsidian-alt.png)
 
 ## License
 
