@@ -28,16 +28,9 @@ settings:
   --background-primary: #161221;
   --background-secondary: #1D182A;
   --background-secondary-alt: #1D182A;
-  --background-tertiary: #281F3D;
   --text-normal: #E8E3F2;
   --text-muted: #A49BBF;
   --text-faint: #736699;
-  --text-title-h1: #CB81E4;
-  --text-title-h2: #EC93BF;
-  --text-title-h3: #75C6D7;
-  --text-title-h4: #C7BCE6;
-  --text-title-h5: #E8E3F2;
-  --text-title-h6: #A49BBF;
   --text-accent: #F471C8;
   --text-accent-hover: #CB81E4;
   --text-error: #E46772;
@@ -58,14 +51,6 @@ settings:
   --background-modifier-form-field: #1D182A;
   --tag-color: #CB81E4;
   --tag-color-hover: #F471C8;
-  --tag-bg: rgba(203, 129, 228, 0.15);
-  --tag-border: rgba(203, 129, 228, 0.3);
-  --callout-color: #CB81E4;
-  --callout-title: #CB81E4;
-  --callout-content-bg: rgba(203, 129, 228, 0.1);
-  --callout-content-border: rgba(203, 129, 228, 0.3);
-  --callout-bg: rgba(203, 129, 228, 0.08);
-  --callout-bg-muted: rgba(203, 129, 228, 0.05);
   --checkbox-color: #CB81E4;
   --checkbox-marker-color: #CB81E4;
   --code-background: #1D182A;
@@ -74,14 +59,9 @@ settings:
   --code-function: #EC93BF;
   --code-keyword: #CB81E4;
   --code-string: #ED9F82;
-  --code-number: #EFBF6C;
-  --code-type: #75C6D7;
-  --code-parameter: #C7BCE6;
   --code-property: #A085AD;
   --code-punctuation: #A085AD;
   --code-tag: #CB81E4;
-  --code-attribute-name: #75C6D7;
-  --code-attribute-value: #ED9F82;
   --border-color: #322C44;
   --border-width: 1px;
   --nav-item-tint-hover: rgba(61, 37, 86, 0.5);
@@ -119,8 +99,6 @@ settings:
   --embed-bg: #1D182A;
   --embed-border: #322C44;
   --embed-shadow: rgba(0, 0, 0, 0.2);
-  --blockquote-bg: rgba(203, 129, 228, 0.05);
-  --blockquote-border: #CB81E4;
   --hr-color: #322C44;
   --hr-thickness: 1px;
   /* --- Added for full-coverage consistency pass --- */
@@ -153,22 +131,58 @@ settings:
   --workspace-background-translucent: rgba(22, 18, 33, 0.6);
   --drag-ghost-background: rgba(0, 0, 0, 0.85);
   --toggle-thumb-color: #E8E3F2;
+  /* --- Real Obsidian variable names (replacing non-standard ones) --- */
+  --h1-color: #CB81E4;
+  --h2-color: #EC93BF;
+  --h3-color: #75C6D7;
+  --h4-color: #C7BCE6;
+  --h5-color: #E8E3F2;
+  --h6-color: #A49BBF;
+  --tag-background: rgba(203, 129, 228, 0.15);
+  --tag-border-color: rgba(203, 129, 228, 0.3);
+  --callout-default: #F471C8;
+  --callout-info: #75C6D7;
+  --callout-warning: #F2A65A;
+  --callout-error: #E46772;
+  --callout-success: #6BC7A8;
+  --callout-question: #F2A65A;
+  --callout-tip: #F471C8;
+  --callout-important: #F471C8;
+  --callout-summary: #75C6D7;
+  --callout-todo: #6BC7A8;
+  --callout-bug: #E46772;
+  --callout-fail: #E46772;
+  --callout-example: #C7BCE6;
+  --blockquote-background-color: rgba(203, 129, 228, 0.05);
+  --blockquote-border-color: #CB81E4;
+  --code-property: #C7BCE6;
+  --code-value: #EFBF6C;
+  --checkbox-color-hover: #F471C8;
+  --table-background: #161221;
+  --table-header-background: #1D182A;
+  --table-header-color: #EC93BF;
+  --table-border-color: #322C44;
+  --table-row-alt-background: #1D182A;
+  --table-text-color: #E8E3F2;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #322C44;
+  --scrollbar-active-thumb-bg: #3D2556;
+  --tab-container-background: #1D182A;
+  --tab-background-active: #161221;
+  --tab-text-color: #A49BBF;
+  --tab-text-color-active: #F471C8;
+  --tab-text-color-focused: #A49BBF;
+  --tab-text-color-focused-active: #F471C8;
+
 }
 
 .theme-light {
   --background-primary: #F4EEE1;
   --background-secondary: #ECE5D5;
   --background-secondary-alt: #ECE5D5;
-  --background-tertiary: #E6D6C1;
   --text-normal: #24163B;
   --text-muted: #574979;
   --text-faint: #7A6F9B;
-  --text-title-h1: #8930A6;
-  --text-title-h2: #AE296B;
-  --text-title-h3: #1D7187;
-  --text-title-h4: #4D3781;
-  --text-title-h5: #24163B;
-  --text-title-h6: #574979;
   --text-accent: #C3228E;
   --text-accent-hover: #8930A6;
   --text-error: #B12531;
@@ -189,14 +203,6 @@ settings:
   --background-modifier-form-field: #ECE5D5;
   --tag-color: #8930A6;
   --tag-color-hover: #C3228E;
-  --tag-bg: rgba(137, 48, 166, 0.15);
-  --tag-border: rgba(137, 48, 166, 0.3);
-  --callout-color: #8930A6;
-  --callout-title: #8930A6;
-  --callout-content-bg: rgba(137, 48, 166, 0.1);
-  --callout-content-border: rgba(137, 48, 166, 0.3);
-  --callout-bg: rgba(137, 48, 166, 0.08);
-  --callout-bg-muted: rgba(137, 48, 166, 0.05);
   --checkbox-color: #8930A6;
   --checkbox-marker-color: #8930A6;
   --code-background: #ECE5D5;
@@ -205,14 +211,9 @@ settings:
   --code-function: #AE296B;
   --code-keyword: #8930A6;
   --code-string: #B64820;
-  --code-number: #955F0F;
-  --code-type: #1D7187;
-  --code-parameter: #4D3781;
   --code-property: #7F5893;
   --code-punctuation: #7F5893;
   --code-tag: #8930A6;
-  --code-attribute-name: #1D7187;
-  --code-attribute-value: #B64820;
   --border-color: #CDAEA2;
   --border-width: 1px;
   --nav-item-tint-hover: rgba(223, 194, 170, 0.5);
@@ -250,8 +251,6 @@ settings:
   --embed-bg: #ECE5D5;
   --embed-border: #CDAEA2;
   --embed-shadow: rgba(0, 0, 0, 0.1);
-  --blockquote-bg: rgba(137, 48, 166, 0.05);
-  --blockquote-border: #8930A6;
   --hr-color: #CDAEA2;
   --hr-thickness: 1px;
   /* --- Added for full-coverage consistency pass --- */
@@ -284,22 +283,58 @@ settings:
   --workspace-background-translucent: rgba(244, 238, 225, 0.6);
   --drag-ghost-background: rgba(0, 0, 0, 0.85);
   --toggle-thumb-color: #24163B;
+  /* --- Real Obsidian variable names (replacing non-standard ones) --- */
+  --h1-color: #8930A6;
+  --h2-color: #AE296B;
+  --h3-color: #1D7187;
+  --h4-color: #4D3781;
+  --h5-color: #24163B;
+  --h6-color: #574979;
+  --tag-background: rgba(137, 48, 166, 0.15);
+  --tag-border-color: rgba(137, 48, 166, 0.3);
+  --callout-default: #C3228E;
+  --callout-info: #1D7187;
+  --callout-warning: #A25410;
+  --callout-error: #B12531;
+  --callout-success: #22775B;
+  --callout-question: #A25410;
+  --callout-tip: #C3228E;
+  --callout-important: #C3228E;
+  --callout-summary: #1D7187;
+  --callout-todo: #22775B;
+  --callout-bug: #B12531;
+  --callout-fail: #B12531;
+  --callout-example: #4D3781;
+  --blockquote-background-color: rgba(137, 48, 166, 0.05);
+  --blockquote-border-color: #8930A6;
+  --code-property: #4D3781;
+  --code-value: #955F0F;
+  --checkbox-color-hover: #C3228E;
+  --table-background: #F4EEE1;
+  --table-header-background: #ECE5D5;
+  --table-header-color: #AE296B;
+  --table-border-color: #CDAEA2;
+  --table-row-alt-background: #ECE5D5;
+  --table-text-color: #24163B;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #CDAEA2;
+  --scrollbar-active-thumb-bg: #DFC2AA;
+  --tab-container-background: #ECE5D5;
+  --tab-background-active: #F4EEE1;
+  --tab-text-color: #574979;
+  --tab-text-color-active: #C3228E;
+  --tab-text-color-focused: #574979;
+  --tab-text-color-focused-active: #C3228E;
+
 }
 
 .theme-dark.foreglow-alpenglow {
   --background-primary: #1A0505;
   --background-secondary: #2D0A0A;
   --background-secondary-alt: #2D0A0A;
-  --background-tertiary: #3D1212;
   --text-normal: #F5E6DC;
   --text-muted: #C4A398;
   --text-faint: #8B6B6B;
-  --text-title-h1: #FF6B8A;
-  --text-title-h2: #FFB3C6;
-  --text-title-h3: #E85D75;
-  --text-title-h4: #FFA07A;
-  --text-title-h5: #F5E6DC;
-  --text-title-h6: #C4A398;
   --text-accent: #FF6B9D;
   --text-accent-hover: #FF6B8A;
   --text-error: #FF4444;
@@ -320,14 +355,6 @@ settings:
   --background-modifier-form-field: #2D0A0A;
   --tag-color: #FF6B8A;
   --tag-color-hover: #FF6B9D;
-  --tag-bg: rgba(203, 129, 228, 0.15);
-  --tag-border: rgba(203, 129, 228, 0.3);
-  --callout-color: #FF6B8A;
-  --callout-title: #FF6B8A;
-  --callout-content-bg: rgba(203, 129, 228, 0.1);
-  --callout-content-border: rgba(203, 129, 228, 0.3);
-  --callout-bg: rgba(203, 129, 228, 0.08);
-  --callout-bg-muted: rgba(203, 129, 228, 0.05);
   --checkbox-color: #FF6B8A;
   --checkbox-marker-color: #FF6B8A;
   --code-background: #2D0A0A;
@@ -336,14 +363,9 @@ settings:
   --code-function: #FFB3C6;
   --code-keyword: #FF6B8A;
   --code-string: #FF9F6C;
-  --code-number: #FF7E67;
-  --code-type: #E85D75;
-  --code-parameter: #FFA07A;
   --code-property: #CC7A8E;
   --code-punctuation: #CC7A8E;
   --code-tag: #FF6B8A;
-  --code-attribute-name: #E85D75;
-  --code-attribute-value: #FF9F6C;
   --border-color: #4D1818;
   --border-width: 1px;
   --nav-item-tint-hover: rgba(61, 37, 86, 0.5);
@@ -381,8 +403,6 @@ settings:
   --embed-bg: #2D0A0A;
   --embed-border: #4D1818;
   --embed-shadow: rgba(0, 0, 0, 0.2);
-  --blockquote-bg: rgba(203, 129, 228, 0.05);
-  --blockquote-border: #FF6B8A;
   --hr-color: #4D1818;
   --hr-thickness: 1px;
   /* --- Added for full-coverage consistency pass --- */
@@ -415,22 +435,58 @@ settings:
   --workspace-background-translucent: rgba(26, 5, 5, 0.6);
   --drag-ghost-background: rgba(0, 0, 0, 0.85);
   --toggle-thumb-color: #F5E6DC;
+  /* --- Real Obsidian variable names (replacing non-standard ones) --- */
+  --h1-color: #FF6B8A;
+  --h2-color: #FFB3C6;
+  --h3-color: #E85D75;
+  --h4-color: #FFA07A;
+  --h5-color: #F5E6DC;
+  --h6-color: #C4A398;
+  --tag-background: rgba(255, 107, 138, 0.15);
+  --tag-border-color: rgba(255, 107, 138, 0.3);
+  --callout-default: #FF6B9D;
+  --callout-info: #E85D75;
+  --callout-warning: #FF8844;
+  --callout-error: #FF4444;
+  --callout-success: #E85D75;
+  --callout-question: #FF8844;
+  --callout-tip: #FF6B9D;
+  --callout-important: #FF6B9D;
+  --callout-summary: #E85D75;
+  --callout-todo: #E85D75;
+  --callout-bug: #FF4444;
+  --callout-fail: #FF4444;
+  --callout-example: #FFA07A;
+  --blockquote-background-color: rgba(255, 107, 138, 0.05);
+  --blockquote-border-color: #FF6B8A;
+  --code-property: #FFA07A;
+  --code-value: #FF7E67;
+  --checkbox-color-hover: #FF6B9D;
+  --table-background: #1A0505;
+  --table-header-background: #2D0A0A;
+  --table-header-color: #FFB3C6;
+  --table-border-color: #4D1818;
+  --table-row-alt-background: #2D0A0A;
+  --table-text-color: #F5E6DC;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #4D1818;
+  --scrollbar-active-thumb-bg: #5A1E1E;
+  --tab-container-background: #2D0A0A;
+  --tab-background-active: #1A0505;
+  --tab-text-color: #C4A398;
+  --tab-text-color-active: #FF6B9D;
+  --tab-text-color-focused: #C4A398;
+  --tab-text-color-focused-active: #FF6B9D;
+
 }
 
 .theme-dark.foreglow-airglow {
   --background-primary: #0A1A1F;
   --background-secondary: #0F2024;
   --background-secondary-alt: #0F2024;
-  --background-tertiary: #0F2024;
   --text-normal: #E0F0F5;
   --text-muted: #7A9AA0;
   --text-faint: #5A8A90;
-  --text-title-h1: #2EE8C8;
-  --text-title-h2: #C8A0E8;
-  --text-title-h3: #4AA8D0;
-  --text-title-h4: #8BC4D4;
-  --text-title-h5: #E0F0F5;
-  --text-title-h6: #7A9AA0;
   --text-accent: #2EE8C8;
   --text-accent-hover: #2EE8C8;
   --text-error: #E87070;
@@ -451,14 +507,6 @@ settings:
   --background-modifier-form-field: #0F2024;
   --tag-color: #2EE8C8;
   --tag-color-hover: #2EE8C8;
-  --tag-bg: rgba(203, 129, 228, 0.15);
-  --tag-border: rgba(203, 129, 228, 0.3);
-  --callout-color: #2EE8C8;
-  --callout-title: #2EE8C8;
-  --callout-content-bg: rgba(203, 129, 228, 0.1);
-  --callout-content-border: rgba(203, 129, 228, 0.3);
-  --callout-bg: rgba(203, 129, 228, 0.08);
-  --callout-bg-muted: rgba(203, 129, 228, 0.05);
   --checkbox-color: #2EE8C8;
   --checkbox-marker-color: #2EE8C8;
   --code-background: #0F2024;
@@ -467,14 +515,9 @@ settings:
   --code-function: #C8A0E8;
   --code-keyword: #2EE8C8;
   --code-string: #7DD8A8;
-  --code-number: #D4B870;
-  --code-type: #4AA8D0;
-  --code-parameter: #8BC4D4;
   --code-property: #6A9AA0;
   --code-punctuation: #6A9AA0;
   --code-tag: #2EE8C8;
-  --code-attribute-name: #4AA8D0;
-  --code-attribute-value: #7DD8A8;
   --border-color: #2A4A50;
   --border-width: 1px;
   --nav-item-tint-hover: rgba(61, 37, 86, 0.5);
@@ -512,8 +555,6 @@ settings:
   --embed-bg: #0F2024;
   --embed-border: #2A4A50;
   --embed-shadow: rgba(0, 0, 0, 0.2);
-  --blockquote-bg: rgba(203, 129, 228, 0.05);
-  --blockquote-border: #2EE8C8;
   --hr-color: #2A4A50;
   --hr-thickness: 1px;
   /* --- Added for full-coverage consistency pass --- */
@@ -546,220 +587,87 @@ settings:
   --workspace-background-translucent: rgba(10, 26, 31, 0.6);
   --drag-ghost-background: rgba(0, 0, 0, 0.85);
   --toggle-thumb-color: #E0F0F5;
-}
+  /* --- Real Obsidian variable names (replacing non-standard ones) --- */
+  --h1-color: #2EE8C8;
+  --h2-color: #C8A0E8;
+  --h3-color: #4AA8D0;
+  --h4-color: #8BC4D4;
+  --h5-color: #E0F0F5;
+  --h6-color: #7A9AA0;
+  --tag-background: rgba(46, 232, 200, 0.15);
+  --tag-border-color: rgba(46, 232, 200, 0.3);
+  --callout-default: #2EE8C8;
+  --callout-info: #4AA8D0;
+  --callout-warning: #D4B870;
+  --callout-error: #E87070;
+  --callout-success: #4AC878;
+  --callout-question: #D4B870;
+  --callout-tip: #2EE8C8;
+  --callout-important: #2EE8C8;
+  --callout-summary: #4AA8D0;
+  --callout-todo: #4AC878;
+  --callout-bug: #E87070;
+  --callout-fail: #E87070;
+  --callout-example: #8BC4D4;
+  --blockquote-background-color: rgba(46, 232, 200, 0.05);
+  --blockquote-border-color: #2EE8C8;
+  --code-property: #8BC4D4;
+  --code-value: #D4B870;
+  --checkbox-color-hover: #2EE8C8;
+  --table-background: #0A1A1F;
+  --table-header-background: #0F2024;
+  --table-header-color: #C8A0E8;
+  --table-border-color: #2A4A50;
+  --table-row-alt-background: #0F2024;
+  --table-text-color: #E0F0F5;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #2A4A50;
+  --scrollbar-active-thumb-bg: #162E34;
+  --tab-container-background: #0F2024;
+  --tab-background-active: #0A1A1F;
+  --tab-text-color: #7A9AA0;
+  --tab-text-color-active: #2EE8C8;
+  --tab-text-color-focused: #7A9AA0;
+  --tab-text-color-focused-active: #2EE8C8;
 
-/* Basic Resets */
-body {
-  background-color: var(--background-primary) !important;
-  color: var(--text-normal) !important;
-}
-
-/* Workspace */
-.workspace-1Rq3jG {
-  background-color: var(--background-primary) !important;
-}
-
-/* Sidebar */
-.workspace-rim {
-  background-color: var(--background-primary) !important;
-}
-
-.workspace-split.mod-horizontal.mod-left-split .workspace-tab-container {
-  background-color: var(--background-primary) !important;
-}
-
-/* Tabs */
-.workspace-tab-header {
-  background-color: var(--background-secondary) !important;
-  color: var(--text-muted) !important;
-  border-color: var(--border-color) !important;
-}
-
-.workspace-tab-header.is-active {
-  background-color: var(--background-primary) !important;
-  color: var(--text-accent) !important;
-  border-top-color: var(--text-accent) !important;
-}
-
-.workspace-tab-header:hover {
-  background-color: var(--background-tertiary) !important;
-  color: var(--text-normal) !important;
-}
-
-/* Editor */
-.markdown-source-view {
-  background-color: var(--background-primary) !important;
-}
-
-.markdown-preview-view {
-  background-color: var(--background-primary) !important;
-}
-
-.markdown-preview-sizer {
-  background-color: var(--background-primary) !important;
-}
-
-/* Preview */
-.markdown-preview-view h1 {
-  color: var(--text-title-h1) !important;
-}
-
-.markdown-preview-view h2 {
-  color: var(--text-title-h2) !important;
-}
-
-.markdown-preview-view h3 {
-  color: var(--text-title-h3) !important;
-}
-
-/* Callouts */
-.callout {
-  background-color: var(--callout-bg) !important;
-  border-left-color: var(--callout-color) !important;
-}
-
-.callout-title {
-  color: var(--callout-title) !important;
-}
-
-/* Tags */
-.tag {
-  background-color: var(--tag-bg) !important;
-  border-color: var(--tag-border) !important;
-  color: var(--tag-color) !important;
-}
-
-.tag:hover {
-  background-color: var(--tag-color) !important;
-  color: var(--text-on-accent) !important;
-}
-
-/* Checkboxes */
-.checkbox-container {
-  color: var(--checkbox-color) !important;
-}
-
-.checkbox-container.is-checked {
-  background-color: var(--checkbox-color) !important;
-  color: var(--text-on-accent) !important;
-}
-
-/* Scrollbars */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--border-color) !important;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--background-modifier-hover) !important;
-}
-
-/* Code Blocks */
-pre {
-  background-color: var(--code-background) !important;
-  border-color: var(--border-color) !important;
-}
-
-code {
-  color: var(--code-normal) !important;
-  background-color: var(--code-background) !important;
-}
-
-.highlight {
-  background-color: var(--code-background) !important;
-}
-
-/* Blockquotes */
-blockquote {
-  border-color: var(--blockquote-border) !important;
-  background-color: var(--blockquote-bg) !important;
-}
-
-/* Horizontal Rule */
-hr {
-  background-color: var(--hr-color) !important;
-}
-
-/* Links */
-a {
-  color: var(--text-accent) !important;
-}
-
-a:hover {
-  color: var(--interactive-accent-hover) !important;
-}
-
-/* Lists */
-ul li::marker {
-  color: var(--text-accent) !important;
-}
-
-/* Tables */
-table {
-  background-color: var(--background-primary) !important;
-}
-
-thead {
-  background-color: var(--background-tertiary) !important;
-}
-
-thead th {
-  color: var(--text-title-h2) !important;
-}
-
-tr:nth-child(even) {
-  background-color: var(--background-secondary) !important;
-}
-
-tr:nth-child(odd) {
-  background-color: var(--background-primary) !important;
 }
 
 /* Settings screen — Obsidian's own core CSS doesn't fully key these off
  * variables alone, so the sidebar nav falls back to its hardcoded default
  * gray without explicit overrides here. */
 .vertical-tab-header {
-  background-color: var(--background-secondary) !important;
-  border-color: var(--border-color) !important;
+  background-color: var(--background-secondary);
+  border-color: var(--border-color);
 }
 
 .vertical-tab-content-container,
 .vertical-tab-content {
-  background-color: var(--background-primary) !important;
+  background-color: var(--background-primary);
 }
 
 .vertical-tab-nav-item {
-  color: var(--text-muted) !important;
+  color: var(--text-muted);
 }
 
 .vertical-tab-nav-item:hover {
-  background-color: var(--background-modifier-hover) !important;
-  color: var(--text-normal) !important;
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
 }
 
 .vertical-tab-nav-item.is-active {
-  background-color: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
 }
 
 .vertical-tab-nav-item.is-active:hover {
-  background-color: var(--interactive-accent-hover) !important;
-  color: var(--text-on-accent) !important;
+  background-color: var(--interactive-accent-hover);
+  color: var(--text-on-accent);
 }
 
 .vertical-tab-header-group-title {
-  color: var(--text-faint) !important;
+  color: var(--text-faint);
 }
 
 .modal-bg {
-  background-color: var(--background-modifier-cover) !important;
+  background-color: var(--background-modifier-cover);
 }
